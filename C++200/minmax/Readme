@@ -1,0 +1,19 @@
+minmax.cpp build was failed as below.
+
+minmax.cpp:8:5: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    auto result1 = min(1, 5);
+    ^
+minmax.cpp:9:5: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    auto result2 = max('a', 'z');
+    ^
+minmax.cpp:13:5: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    auto result3 = minmax({ 'a', 'n', 'z' });
+    ^
+minmax.cpp:13:27: error: expected expression
+    auto result3 = minmax({ 'a', 'n', 'z' });
+                          ^
+minmax.cpp:14:5: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    auto result4 = minmax({1, 2, 3});
+    ^
+minmax.cpp:14:27: error: expected expression
+    auto result4 = minmax({1, 2, 3});
